@@ -1,0 +1,1 @@
+from .script_example import component_api_func
