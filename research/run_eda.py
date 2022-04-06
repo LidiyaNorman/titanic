@@ -17,6 +17,7 @@ def main():
     plot_categorical_feature_statistics(data, col="Survived", title="Survived")
     plot_stats_of_2_features(data, col1="Sex", col2="Survived", title="Sex:Survived vs Dead")
     n_pass = data["PassengerId"].nunique()
+    # print(f"PassengerId uniques: {n_pass}")
     return data
 
 
